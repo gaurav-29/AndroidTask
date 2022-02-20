@@ -226,4 +226,17 @@ public class EmployeeContainer extends AppCompatActivity {
         recemployee = findViewById(R.id.recemployee);
         dbAdapter = new DBAdapter(ctx,DBAdapter.DATABASE, null, DBAdapter.VERSION);
     }
+    private void init2()
+    {
+        btnsave = findViewById(R.id.btnsave);
+        txtdepartment = findViewById(R.id.txtdepartment);
+        btnadd = findViewById(R.id.btnadd);
+        txtemail = findViewById(R.id.txtemail);
+        txtemail1 = findViewById(R.id.txtemail1);
+        lblremove = findViewById(R.id.lblremove);
+        switch1 = findViewById(R.id.switch1);
+        spinner = findViewById(R.id.spinner);
+        recemployee = findViewById(R.id.recemployee);
+        dbAdapter = new DBAdapter(ctx,DBAdapter.DATABASE, null, DBAdapter.VERSION);
+    }
 }
